@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div style={{ display: "flex", gap: 20, maxWidth: 800, margin: "auto", marginTop:100 }}>
-      <ScrollToBottom height={300} style={{ marginTop: 50, border:"1px solid rgba(0,0,0,0.1)" }}>
+      <ScrollToBottom height={300} style={{ marginTop: 50, border:"1px solid rgba(0,0,0,0.1)", padding: "0px 20px" }}>
         {list.map((item) => (
           <p>{item}</p>
         ))}
